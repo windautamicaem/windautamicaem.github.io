@@ -1,0 +1,88 @@
+* { margin:0;
+	padding:0;
+	}
+	
+	
+body { 
+		background-color: ;
+		width:1100px;
+		color: #FFFFFF;
+		font:16px Ravie;
+		}
+#menu {	
+		margin-top:40px;
+		margin-left:200px;
+		width:700px;
+		background:url(image_menu/menu_41_bg.jpg) no-repeat;
+		height:55px;
+		}
+#menu ul {
+			list-style:none;
+			text-align:center;
+			}
+#menu li {
+			list-style:none;
+			display:block;
+			float:left;
+			padding:8px 30px 0 30px;
+			}
+#menu li a {
+			display :block;
+			float:left;
+			}
+#menu li span {
+				display :none;
+				}
+#menu li a:hover {
+					text-decoration:none;
+					}
+#menu li  a.homeaktif {
+					background:url(image_menu/home.jpg) no-repeat;
+					width:55px;
+					height:32px;
+					}
+#menu li  a:hover.homeaktif {
+					background:url(image_menu/home_h.jpg) no-repeat;
+					width:55px;
+					height:32px;
+					}
+#menu li  a.about {
+					background:url(image_menu/about.jpg) no-repeat;
+					width:80px;
+					height:32px;
+					}
+#menu li  a:hover.about {
+					background:url(image_menu/about_h.jpg) no-repeat;
+					width:80px;
+					height:32px;
+					}
+#menu li  a.services {
+					background:url(image_menu/services.jpg) no-repeat;
+					width:80px;
+					height:32px;
+					}
+#menu li  a:hover.services {
+					background:url(image_menu/services_h.jpg) no-repeat;
+					width:80px;
+					height:32px;
+					}
+#menu li  a.solutions {
+					background:url(image_menu/solutions.jpg) no-repeat;
+					width:88px;
+					height:32px;
+					}
+#menu li  a:hover.solutions {
+					background:url(image_menu/solutons_h.jpg) no-repeat;
+					width:88px;
+					height:32px;
+					}
+#menu li  a.contact {
+					background:url(image_menu/contact.jpg) no-repeat;
+					width:95px;
+					height:32px;
+					}
+#menu li  a:hover.contact {
+					background:url(image_menu/contact_h.jpg) no-repeat;
+					width:95px;
+					height:32px;
+					}					
